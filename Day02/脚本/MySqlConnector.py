@@ -4,17 +4,17 @@ import mysql.connector
 
 # 打开数据库连接
 db = mysql.connector.connect(
-  host="localhost",
+  host="47.100.236.144",
   user="root",
-  passwd="123456",
-  database="seckill"
+  passwd="root",
+  database="python"
 )
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
 
 # 使用 execute()  方法执行 SQL 查询
-cursor.execute("SELECT * FROM seckill")
+cursor.execute("SELECT * FROM user")
 
 # 使用 fetchall() 方法获取s所有数据
 data = cursor.fetchall()

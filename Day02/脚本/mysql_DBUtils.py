@@ -209,7 +209,7 @@ class MyPymysqlPool(BasePymysqlPool):
 
 if __name__ == '__main__':
     mysql = MyPymysqlPool("dbMysql")
-    sqlAll = "select * from seckill;"
+    sqlAll = "select * from user;"
     result = mysql.getAll(sqlAll)
     print(result)
     # 释放资源

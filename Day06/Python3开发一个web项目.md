@@ -4,8 +4,8 @@
 ```
 # 安装 Web 框架 
 pip install Django
-# 创建一个项目
-python  django-admin.py startproject itstyle
+# 创建一个项目 python 省略
+  django-admin.py startproject itstyle
 # 切换目录
 cd itstyle
  # 创建  App

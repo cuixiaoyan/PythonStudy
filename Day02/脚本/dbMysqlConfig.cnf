@@ -1,6 +1,6 @@
 [dbMysql]
-host = localhost
+host = 47.100.236.144
 port = 3306
 user = root
-password = 123456
-db_name = seckill
+password = root
+db_name = python
